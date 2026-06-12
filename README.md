@@ -23,18 +23,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ### Core Vector Database Platforms
 
-| Product | Description | Pricing | Free Tier Limit |
-| :--- | :--- | :--- | :--- |
-| **[Pinecone](https://www.pinecone.io/)** | Fully managed vector database for high-performance similarity search and RAG. | Usage-based: $0.33/GB storage, $16/M reads, $4/M writes. | 2GB storage, 2M write units, 1M read units/mo. |
-| **[Zilliz Cloud](https://zilliz.com/)** | Managed version of Milvus, optimized for massive embedding workloads. | vCU-based: $4 per million vCUs. Dedicated clusters from $99/mo. | 5GB storage (~1M vectors), 2.5M vCUs/mo. |
-| **[Weaviate Cloud](https://weaviate.io/)** | Open-source-first vector database with semantic search and modules. | Dimension-based: $0.016 per M dims; $0.25/GiB storage. $45/mo base. | 100K objects, 1GB RAM, 10GB disk. |
-| **[Qdrant Cloud](https://qdrant.tech/)** | High-performance vector search engine with excellent filtering and Rust efficiency. | Resource-based: Hourly billing for RAM/vCPU (~$10/mo min). | 0.5 vCPU, 1GB RAM, 4GB disk. No CC required. |
-| **[MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-vector-search)** | Integrated vector search within the popular NoSQL document database. | Cluster-based: Shared tiers or Dedicated (~$57/mo). | 512MB storage (M0 tier). Shared RAM/vCPU. |
-| **[Astra DB](https://www.datastax.com/products/astra)** | Cloud-native Cassandra-based database with integrated vector search. | Credit-based: $0.37/M reads; $0.62/M writes; $0.25/GB storage. | $25 monthly credit (25GB storage, 25M reads/writes). |
-| **[Upstash Vector](https://upstash.com/products/vector)** | Serverless vector database with low latency and pay-as-you-go pricing. | Request-based: $0.40 per 100K requests; $0.25/GB storage. | 20K queries/mo, 200K max records. |
-| **[Supabase](https://supabase.com/docs/guides/ai)** | Managed PostgreSQL with pgvector, providing a full backend-as-a-service. | Project-based: Pro plan from $25/mo (includes 8GB DB). | 500MB DB storage, 50K MAUs, 5GB egress. |
-| **[Neon](https://neon.tech/)** | Serverless Postgres with pgvector and autoscaling compute. | Compute-based: $0.106/CU-hour; $0.35/GB storage. $5/mo min. | 0.5GB storage, 100 CU-hours/mo. |
-| **[Momento Vector](https://www.gomomento.com/services/vector-index)** | Low-latency vector index with throughput-based pricing and no storage fees. | Throughput-based: $0.50/GB for data transfer. | 5GB data transfer (inbound/outbound) per month. |
+| Product | Description | Company Size (Valuation/Revenue) | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-vector-search)** | Integrated vector search within the popular NoSQL document database. | **~$15 Billion** ($2.46B Revenue) | Cluster-based: Shared tiers or Dedicated (~$57/mo). | 512MB storage (M0 tier). Shared RAM/vCPU. |
+| **[Supabase](https://supabase.com/docs/guides/ai)** | Managed PostgreSQL with pgvector, providing a full backend-as-a-service. | **$10.5 Billion** ($170M ARR) | Project-based: Pro plan from $25/mo (includes 8GB DB). | 500MB DB storage, 50K MAUs, 5GB egress. |
+| **[Astra DB](https://www.datastax.com/products/astra)** | Cloud-native Cassandra-based database with integrated vector search. | **$1.6 Billion+** (Acquired by IBM) | Credit-based: $0.37/M reads; $0.62/M writes; $0.25/GB storage. | $25 monthly credit (25GB storage, 25M reads/writes). |
+| **[Neon](https://neon.tech/)** | Serverless Postgres with pgvector and autoscaling compute. | **~$1 Billion** (Acquired by Databricks) | Compute-based: $0.106/CU-hour; $0.35/GB storage. $5/mo min. | 0.5GB storage, 100 CU-hours/mo. |
+| **[Pinecone](https://www.pinecone.io/)** | Fully managed vector database for high-performance similarity search and RAG. | **$750M+** ($55M ARR) | Usage-based: $0.33/GB storage, $16/M reads, $4/M writes. | 2GB storage, 2M write units, 1M read units/mo. |
+| **[Zilliz Cloud](https://zilliz.com/)** | Managed version of Milvus, optimized for massive embedding workloads. | **$600M - $1B** ($49M ARR) | vCU-based: $4 per million vCUs. Dedicated clusters from $99/mo. | 5GB storage (~1M vectors), 2.5M vCUs/mo. |
+| **[Qdrant Cloud](https://qdrant.tech/)** | High-performance vector search engine with excellent filtering and Rust efficiency. | **$250M - $500M** ($14M ARR) | Resource-based: Hourly billing for RAM/vCPU (~$10/mo min). | 0.5 vCPU, 1GB RAM, 4GB disk. No CC required. |
+| **[Weaviate Cloud](https://weaviate.io/)** | Open-source-first vector database with semantic search and modules. | **$200M** ($21M ARR) | Dimension-based: $0.016 per M dims; $0.25/GiB storage. $45/mo base. | 100K objects, 1GB RAM, 10GB disk. |
+| **[Momento Vector](https://www.gomomento.com/services/vector-index)** | Low-latency vector index with throughput-based pricing and no storage fees. | **$150M - $250M** ($10M ARR) | Throughput-based: $0.50/GB for data transfer. | 5GB data transfer (inbound/outbound) per month. |
+| **[Upstash Vector](https://upstash.com/products/vector)** | Serverless vector database with low latency and pay-as-you-go pricing. | **$100M - $200M** ($8M ARR) | Request-based: $0.40 per 100K requests; $0.25/GB storage. | 20K queries/mo, 200K max records. |
 
 ### Advanced & Specialized Platforms
 
