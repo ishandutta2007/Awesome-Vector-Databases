@@ -1,119 +1,128 @@
-# Awesome-Vector-Databases
-## Top Vector Databases Ecosystem
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Vector Databases Banner" width="100%">
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on High-Performance Vector Search & Embeddings Storage*  
-**Last updated: March 2026**
+  # Awesome Vector Databases 🚀
+  
+  **A curated list of high-performance Vector Databases, SaaS products, and Open-Source projects.**
+  
+  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+  [![Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Vector-Databases?style=for-the-badge&color=ffd700)](https://github.com/ishandutta2007/Awesome-Vector-Databases/stargazers)
+  [![Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Vector-Databases?style=for-the-badge&color=38BDF8)](https://github.com/ishandutta2007/Awesome-Vector-Databases/network/members)
+  [![License](https://img.shields.io/github/license/ishandutta2007/Awesome-Vector-Databases?style=for-the-badge&color=818CF8)](LICENSE)
+  [![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202026-brightgreen?style=for-the-badge)](https://github.com/ishandutta2007/Awesome-Vector-Databases/commits/main)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** building **Vector Databases**. These specialized databases are optimized for storing, indexing, and querying high-dimensional vector embeddings — essential for semantic search, RAG, recommendation systems, multimodal AI, and agent memory.
+  ---
+  
+  <p align="center">
+    <a href="#saas-products">SaaS Products</a> •
+    <a href="#open-source-github-projects">Open-Source</a> •
+    <a href="#why-vector-databases">Why Vector DBs?</a> •
+    <a href="#contributing">Contributing</a>
+  </p>
 
-**Examples** include Pinecone, Weaviate, Milvus, Qdrant, Chroma, and pgvector (the category leaders). Tools listed here emphasize **scalability**, similarity search performance (ANN), filtering, hybrid search, and integration with LLMs.
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+</div>
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, local deployment, full customization, and production use without vendor lock-in — ideal for AI engineers and teams who want data sovereignty and cost control.
+## 🌟 Overview
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+Welcome to the **Awesome Vector Databases** repository! 📚 This is the ultimate collection of specialized databases optimized for **storing, indexing, and querying high-dimensional vector embeddings**. 
 
-## Table of Contents
-- [SaaS Products](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+Whether you are building a **Retrieval-Augmented Generation (RAG)** system, a recommendation engine, or multimodal AI agents, choosing the right vector store is critical for performance and scalability. ⚡
 
-## SaaS Products
+> **SEO Keywords:** Vector Database, RAG, Embeddings, Semantic Search, Similarity Search, LLM Memory, AI Infrastructure, Vector Search Engine, Milvus, Pinecone, Weaviate, Qdrant, Chroma, pgvector.
 
-### Core Vector Database Platforms
+---
 
-| Product | Description | Company Size (Valuation/Revenue) | Pricing | Free Tier Limit |
+## 🏗️ Why Vector Databases?
+
+Vector databases are the "memory" of modern AI. Unlike traditional relational databases, they are designed to:
+- 🔍 **Perform Similarity Search:** Find the "nearest neighbors" in high-dimensional space.
+- 🚀 **Scale to Billions of Vectors:** Efficiently handle massive embedding datasets.
+- 🧠 **Power AI Agents:** Provide long-term memory for LLMs.
+- 📂 **Support Hybrid Search:** Combine keyword search with semantic search.
+
+---
+
+## 📊 SaaS Products (Managed Services)
+
+### 💎 Core Vector Database Platforms
+
+| Product | Description | Company Size | Pricing | Free Tier Limit |
 | :--- | :--- | :--- | :--- | :--- |
-| **[MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-vector-search)** | Integrated vector search within the popular NoSQL document database. | **~$15 Billion** ($2.46B Revenue) | Cluster-based: Shared tiers or Dedicated (~$57/mo). | 512MB storage (M0 tier). Shared RAM/vCPU. |
-| **[Supabase](https://supabase.com/docs/guides/ai)** | Managed PostgreSQL with pgvector, providing a full backend-as-a-service. | **$10.5 Billion** ($170M ARR) | Project-based: Pro plan from $25/mo (includes 8GB DB). | 500MB DB storage, 50K MAUs, 5GB egress. |
-| **[Astra DB](https://www.datastax.com/products/astra)** | Cloud-native Cassandra-based database with integrated vector search. | **$1.6 Billion+** (Acquired by IBM) | Credit-based: $0.37/M reads; $0.62/M writes; $0.25/GB storage. | $25 monthly credit (25GB storage, 25M reads/writes). |
-| **[Neon](https://neon.tech/)** | Serverless Postgres with pgvector and autoscaling compute. | **~$1 Billion** (Acquired by Databricks) | Compute-based: $0.106/CU-hour; $0.35/GB storage. $5/mo min. | 0.5GB storage, 100 CU-hours/mo. |
-| **[Pinecone](https://www.pinecone.io/)** | Fully managed vector database for high-performance similarity search and RAG. | **$750M+** ($55M ARR) | Usage-based: $0.33/GB storage, $16/M reads, $4/M writes. | 2GB storage, 2M write units, 1M read units/mo. |
-| **[Zilliz Cloud](https://zilliz.com/)** | Managed version of Milvus, optimized for massive embedding workloads. | **$600M - $1B** ($49M ARR) | vCU-based: $4 per million vCUs. Dedicated clusters from $99/mo. | 5GB storage (~1M vectors), 2.5M vCUs/mo. |
-| **[Qdrant Cloud](https://qdrant.tech/)** | High-performance vector search engine with excellent filtering and Rust efficiency. | **$250M - $500M** ($14M ARR) | Resource-based: Hourly billing for RAM/vCPU (~$10/mo min). | 0.5 vCPU, 1GB RAM, 4GB disk. No CC required. |
-| **[Weaviate Cloud](https://weaviate.io/)** | Open-source-first vector database with semantic search and modules. | **$200M** ($21M ARR) | Dimension-based: $0.016 per M dims; $0.25/GiB storage. $45/mo base. | 100K objects, 1GB RAM, 10GB disk. |
-| **[Momento Vector](https://www.gomomento.com/services/vector-index)** | Low-latency vector index with throughput-based pricing and no storage fees. | **$150M - $250M** ($10M ARR) | Throughput-based: $0.50/GB for data transfer. | 5GB data transfer (inbound/outbound) per month. |
-| **[Upstash Vector](https://upstash.com/products/vector)** | Serverless vector database with low latency and pay-as-you-go pricing. | **$100M - $200M** ($8M ARR) | Request-based: $0.40 per 100K requests; $0.25/GB storage. | 20K queries/mo, 200K max records. |
+| **[MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-vector-search)** | Integrated vector search in NoSQL. | **~$15B** | Cluster-based | 512MB storage (M0) |
+| **[Supabase](https://supabase.com/docs/guides/ai)** | Managed PostgreSQL with pgvector. | **$10.5B** | $25/mo Pro | 500MB DB storage |
+| **[Astra DB](https://www.datastax.com/products/astra)** | Cloud-native Cassandra-based. | **$1.6B+** | Credit-based | $25/mo credit |
+| **[Neon](https://neon.tech/)** | Serverless Postgres with autoscaling. | **~$1B** | $5/mo min | 0.5GB storage |
+| **[Pinecone](https://www.pinecone.io/)** | High-performance managed vector DB. | **$750M+** | Usage-based | 2GB storage |
+| **[Zilliz Cloud](https://zilliz.com/)** | Managed version of Milvus. | **$600M+** | vCU-based | 5GB storage |
+| **[Qdrant Cloud](https://qdrant.tech/)** | Rust-based efficiency. | **$250M+** | Hourly billing | 1GB RAM Free |
+| **[Weaviate Cloud](https://weaviate.io/)** | Semantic search first. | **$200M** | Dimension-based | 1GB RAM Free |
+| **[Momento Vector](https://www.gomomento.com/services/vector-index)** | Low-latency serverless index. | **$150M+** | Throughput-based| 5GB transfer/mo |
+| **[Upstash Vector](https://upstash.com/products/vector)** | Serverless pay-as-you-go. | **$100M+** | Request-based | 20K queries/mo |
 
-### Advanced & Specialized Platforms
+---
 
-**Other notable mentions**: SingleStore, Algolia NeuralSearch, and various managed vector services from major cloud providers (AWS, Google Cloud, Azure).
+## 📂 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+### 🛠️ Dedicated Vector Databases
 
-### Dedicated Vector Database Projects
+- **[Weaviate](https://github.com/weaviate/weaviate)** 🏆  
+  Native multimodal support, GraphQL + REST, and excellent hybrid search.
+  
+- **[Milvus](https://github.com/milvus-io/milvus)** ☁️  
+  Highly scalable, designed for massive embedding workloads.
+  
+- **[Qdrant](https://github.com/qdrant/qdrant)** 🦀  
+  Rust-based, high performance with rich filtering and payload support.
+  
+- **[Chroma](https://github.com/chroma-core/chroma)** 🎨  
+  Developer-first, perfect for local-to-production RAG apps.
+  
+- **[pgvector](https://github.com/pgvector/pgvector)** 🐘  
+  The industry standard for vector search in PostgreSQL.
+  
+- **[LanceDB](https://github.com/lancedb/lancedb)** ⚡  
+  Modern, built on Lance format with zero-copy capabilities.
 
-- **[Weaviate](https://github.com/weaviate/weaviate)**  
-  Leading open-source vector database with native multimodal support, GraphQL + REST API, modules for LLMs, and excellent hybrid search capabilities.
+### 📚 Specialized Libraries
 
-- **[Milvus](https://github.com/milvus-io/milvus)**  
-  Highly scalable open-source vector database designed for massive embedding workloads and similarity search. Widely used in production.
+- **[Faiss](https://github.com/facebookresearch/faiss)** — Facebook's library for dense vector similarity search.
+- **[HNSWlib](https://github.com/nmslib/hnswlib)** — Fast HNSW graph implementation.
+- **[Vespa](https://github.com/vespa-engine/vespa)** — Big data serving engine with powerful ranking.
+- **[Redis Stack](https://github.com/redis/redis)** — Real-time vector search in Redis.
 
-- **[Qdrant](https://github.com/qdrant/qdrant)**  
-  High-performance vector search engine with excellent filtering, payload support, and Rust-based efficiency. Great for production RAG.
-
-- **[Chroma](https://github.com/chroma-core/chroma)**  
-  Popular open-source embedding database optimized for developer experience and local-to-production RAG applications.
-
-- **[pgvector](https://github.com/pgvector/pgvector)**  
-  Open-source PostgreSQL extension that adds vector similarity search to the world's most popular relational database.
-
-- **[LanceDB](https://github.com/lancedb/lancedb)**  
-  Modern open-source vector database built on Lance format with strong versioning and zero-copy capabilities.
-
-- **[Faiss](https://github.com/facebookresearch/faiss)**  
-  Facebook's industry-standard library for efficient similarity search and clustering of dense vectors.
-
-- **[HNSWlib](https://github.com/nmslib/hnswlib)**  
-  Fast approximate nearest neighbor search library implementing Hierarchical Navigable Small World graphs.
-
-- **[Vespa](https://github.com/vespa-engine/vespa)**  
-  Open-source big data serving engine with powerful vector search and hybrid ranking capabilities.
-
-- **[Redis Stack (with RediSearch & Vector)](https://github.com/redis/redis)**  
-  Redis with official vector search module for real-time vector operations.
-
-### Additional Strong Open-Source Options
-
-- **[Annoy](https://github.com/spotify/annoy)** — Spotify’s approximate nearest neighbors library optimized for memory usage.
-- **[ScaNN](https://github.com/google-research/google-research/tree/master/scann)** — Google’s high-performance vector search library.
-- **[USearch](https://github.com/unum-cloud/usearch)** — Extremely fast SIMD-accelerated vector search library.
-- **[Turbopuffer](https://github.com/turbopuffer/turbopuffer)** — Serverless-scale open-source vector database.
-- **[Typesense](https://github.com/typesense/typesense)** — Fast open-source search engine with vector capabilities.
-- Many community **Docker + pgvector**, **Chroma**, and **Qdrant** deployment templates.
-
-**Frameworks for building custom solutions**: Combine **pgvector**, **Qdrant**, or **Chroma** with **LlamaIndex**, **LangChain**, and **LangGraph** for complete RAG and agent memory systems.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
+---
 
 ## 📈 Star History
 
 <div align="center">
-   <a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Vector-Databases&type=date&legend=bottom-right">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Vector-Databases&type=date&theme=dark&legend=bottom-right" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Vector-Databases&type=date&legend=bottom-right" />
-      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Vector-Databases&type=date&legend=bottom-right" />
-    </picture>
-   </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Vector-Databases&type=date&theme=dark&legend=bottom-right" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Vector-Databases&type=date&legend=bottom-right" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Vector-Databases&type=date&legend=bottom-right" width="100%" />
+  </picture>
 </div>
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Performance characteristics (latency, recall, scale) vary significantly by use case and hardware.
-- Always evaluate vector databases based on your specific workload (dimensionality, update frequency, query patterns).
 
 ---
 
-**Made for AI engineers, RAG developers, data scientists, and LLM application builders.**  
-Let's make vector search more accessible, scalable, and open.
+## 🤝 Contributing
+
+Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. 💖
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## ⚖️ Disclaimer
+
+- This list is **community-curated** and not exhaustive.
+- Performance varies by use case. Always benchmark with your own data! 📊
+
+<div align="center">
+  <img src="assets/logo.svg" alt="Awesome Vector Databases Logo" width="100">
+  <p>Made with ❤️ for the AI community</p>
+</div>
