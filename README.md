@@ -5,7 +5,7 @@
   
   **A curated list of high-performance Vector Databases, SaaS products, and Open-Source projects.**
   
-  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/awesome-awesome-awesome)
   [![Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Vector-Databases?style=for-the-badge&color=ffd700)](https://github.com/ishandutta2007/Awesome-Vector-Databases/stargazers)
   [![Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Vector-Databases?style=for-the-badge&color=38BDF8)](https://github.com/ishandutta2007/Awesome-Vector-Databases/network/members)
   [![License](https://img.shields.io/github/license/ishandutta2007/Awesome-Vector-Databases?style=for-the-badge&color=818CF8)](LICENSE)
