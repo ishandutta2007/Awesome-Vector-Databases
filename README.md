@@ -23,18 +23,22 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ### Core Vector Database Platforms
 
-- **[Pinecone](https://www.pinecone.io/)**  
-  Fully managed vector database known for simplicity, scale, and production-grade performance with hybrid search.
-
-- **[Weaviate Cloud](https://weaviate.io/)**  
-  Open-source-first vector database with strong semantic search, modules, and cloud hosting.
-
-- **[Milvus Cloud](https://milvus.io/)**  
-  Cloud version of the popular open-source vector database with high scalability.
+| Product | Description | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- |
+| **[Pinecone](https://www.pinecone.io/)** | Fully managed vector database for high-performance similarity search and RAG. | Usage-based: $0.33/GB storage, $16/M reads, $4/M writes. | 2GB storage, 2M write units, 1M read units/mo. |
+| **[Zilliz Cloud](https://zilliz.com/)** | Managed version of Milvus, optimized for massive embedding workloads. | vCU-based: $4 per million vCUs. Dedicated clusters from $99/mo. | 5GB storage (~1M vectors), 2.5M vCUs/mo. |
+| **[Weaviate Cloud](https://weaviate.io/)** | Open-source-first vector database with semantic search and modules. | Dimension-based: $0.016 per M dims; $0.25/GiB storage. $45/mo base. | 100K objects, 1GB RAM, 10GB disk. |
+| **[Qdrant Cloud](https://qdrant.tech/)** | High-performance vector search engine with excellent filtering and Rust efficiency. | Resource-based: Hourly billing for RAM/vCPU (~$10/mo min). | 0.5 vCPU, 1GB RAM, 4GB disk. No CC required. |
+| **[MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-vector-search)** | Integrated vector search within the popular NoSQL document database. | Cluster-based: Shared tiers or Dedicated (~$57/mo). | 512MB storage (M0 tier). Shared RAM/vCPU. |
+| **[Astra DB](https://www.datastax.com/products/astra)** | Cloud-native Cassandra-based database with integrated vector search. | Credit-based: $0.37/M reads; $0.62/M writes; $0.25/GB storage. | $25 monthly credit (25GB storage, 25M reads/writes). |
+| **[Upstash Vector](https://upstash.com/products/vector)** | Serverless vector database with low latency and pay-as-you-go pricing. | Request-based: $0.40 per 100K requests; $0.25/GB storage. | 20K queries/mo, 200K max records. |
+| **[Supabase](https://supabase.com/docs/guides/ai)** | Managed PostgreSQL with pgvector, providing a full backend-as-a-service. | Project-based: Pro plan from $25/mo (includes 8GB DB). | 500MB DB storage, 50K MAUs, 5GB egress. |
+| **[Neon](https://neon.tech/)** | Serverless Postgres with pgvector and autoscaling compute. | Compute-based: $0.106/CU-hour; $0.35/GB storage. $5/mo min. | 0.5GB storage, 100 CU-hours/mo. |
+| **[Momento Vector](https://www.gomomento.com/services/vector-index)** | Low-latency vector index with throughput-based pricing and no storage fees. | Throughput-based: $0.50/GB for data transfer. | 5GB data transfer (inbound/outbound) per month. |
 
 ### Advanced & Specialized Platforms
 
-**Other notable mentions**: SingleStore, Zilliz Cloud, and various managed vector services.
+**Other notable mentions**: SingleStore, Algolia NeuralSearch, and various managed vector services from major cloud providers (AWS, Google Cloud, Azure).
 
 ## Open-Source GitHub Projects
 
