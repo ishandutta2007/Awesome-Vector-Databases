@@ -10,6 +10,9 @@
   [![Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Vector-Databases?style=for-the-badge&color=38BDF8)](https://github.com/ishandutta2007/Awesome-Vector-Databases/network/members)
   [![License](https://img.shields.io/github/license/ishandutta2007/Awesome-Vector-Databases?style=for-the-badge&color=818CF8)](LICENSE)
   [![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202026-brightgreen?style=for-the-badge)](https://github.com/ishandutta2007/Awesome-Vector-Databases/commits/main)
+<a href="https://github.com/ishandutta2007">
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow&style=for-the-badge&logo=github&logoColor=white" alt="Github"/>
+</a>
 
   ---
   
