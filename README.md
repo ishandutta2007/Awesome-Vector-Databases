@@ -58,12 +58,12 @@ Vector databases are the "memory" of modern AI. Unlike traditional relational da
 | **[Neon](https://neon.tech/)** | Serverless Postgres with autoscaling. | **~$1B** | $5/mo min | 0.5GB storage |
 | **[Pinecone](https://www.pinecone.io/)** | High-performance managed vector DB. | **$750M+** | Usage-based | 2GB storage |
 | **[Zilliz Cloud](https://zilliz.com/)** | Managed version of Milvus. | **$600M+** | vCU-based | 5GB storage |
+| **[Milvus](https://milvus.io/)** | Highly scalable vector database designed for massive embedding workloads and similarity search. | **$600M+** | vCU-based | 5GB storage |
 | **[Qdrant Cloud](https://qdrant.tech/)** | Rust-based efficiency. | **$250M+** | Hourly billing | 1GB RAM Free |
 | **[Weaviate Cloud](https://weaviate.io/)** | Semantic search first. | **$200M** | Dimension-based | 1GB RAM Free |
-| **[Momento Vector](https://www.gomomento.com/services/vector-index)** | Low-latency serverless index. | **$150M+** | Throughput-based| 5GB transfer/mo |
+| **[Momento Vector](https://www.gomomento.com/services/vector-index)** | Low-latency serverless index. | **$150M+** | Throughput-based | 5GB transfer/mo |
 | **[Upstash Vector](https://upstash.com/products/vector)** | Serverless pay-as-you-go. | **$100M+** | Request-based | 20K queries/mo |
-| **[Milvus](https://milvus.io/)** | Highly scalable vector database designed for massive embedding workloads and similarity search. |  |   |  |
-| **[ChromaDB](https://www.trychroma.com/)** | Developer-friendly embedding database optimized for RAG and local-to-production AI applications. |  |   |  |
+| **[ChromaDB](https://www.trychroma.com/)** | Developer-friendly embedding database optimized for RAG and local-to-production AI applications. | **$75M** | Usage-based | Free $5 credit |
 
   
 ---
