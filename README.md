@@ -62,7 +62,10 @@ Vector databases are the "memory" of modern AI. Unlike traditional relational da
 | **[Weaviate Cloud](https://weaviate.io/)** | Semantic search first. | **$200M** | Dimension-based | 1GB RAM Free |
 | **[Momento Vector](https://www.gomomento.com/services/vector-index)** | Low-latency serverless index. | **$150M+** | Throughput-based| 5GB transfer/mo |
 | **[Upstash Vector](https://upstash.com/products/vector)** | Serverless pay-as-you-go. | **$100M+** | Request-based | 20K queries/mo |
+| **[Milvus](https://milvus.io/)** | Highly scalable vector database designed for massive embedding workloads and similarity search. |  |   |  |
+| **[ChromaDB](https://www.trychroma.com/)** | Developer-friendly embedding database optimized for RAG and local-to-production AI applications. |  |   |  |
 
+  
 ---
 
 ## 📂 Open-Source GitHub Projects
@@ -86,6 +89,29 @@ Vector databases are the "memory" of modern AI. Unlike traditional relational da
   
 - **[LanceDB](https://github.com/lancedb/lancedb)** ⚡  
   Modern, built on Lance format with zero-copy capabilities.
+
+- **[Faiss](https://github.com/facebookresearch/faiss)**  🦀  
+  Facebook’s industry-standard library for efficient similarity search and clustering of dense vectors.
+
+- **[HNSWlib](https://github.com/nmslib/hnswlib)**  🎨  
+  Fast approximate nearest neighbor search library implementing Hierarchical Navigable Small World graphs.
+
+- **[Vespa](https://github.com/vespa-engine/vespa)**  ☁️  
+  Big data serving engine with powerful vector search and hybrid ranking capabilities.
+
+- **[Redis Stack (RediSearch + Vector)](https://github.com/redis/redis)**  🐘  
+  Redis with official vector search module for real-time vector operations and caching.
+
+### 🐘  Additional Strong Open-Source Options
+
+- **[Annoy](https://github.com/spotify/annoy)** — Spotify’s approximate nearest neighbors library optimized for memory usage.
+- **[ScaNN](https://github.com/google-research/google-research/tree/master/scann)** — Google’s high-performance vector search library.
+- **[USearch](https://github.com/unum-cloud/usearch)** — Extremely fast SIMD-accelerated vector search library.
+- **[Turbopuffer](https://github.com/turbopuffer/turbopuffer)** — Serverless-scale open-source vector database.
+- **[Typesense](https://github.com/typesense/typesense)** — Fast open-source search engine with vector capabilities.
+- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** with vector search extensions.
+- Many community **Docker + pgvector**, **Chroma**, and **Qdrant** deployment templates.
+  
 
 ### 📚 Specialized Libraries
 
