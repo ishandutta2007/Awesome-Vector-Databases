@@ -71,55 +71,52 @@ Vector databases are the "memory" of modern AI. Unlike traditional relational da
 ## 📂 Open-Source GitHub Projects
 
 ### 🛠️ Dedicated Vector Databases
-
-- **[Weaviate](https://github.com/weaviate/weaviate)** 🏆  
-  Native multimodal support, GraphQL + REST, and excellent hybrid search.
-  
-- **[Milvus](https://github.com/milvus-io/milvus)** ☁️  
-  Highly scalable, designed for massive embedding workloads.
-  
-- **[Qdrant](https://github.com/qdrant/qdrant)** 🦀  
-  Rust-based, high performance with rich filtering and payload support.
-  
-- **[Chroma](https://github.com/chroma-core/chroma)** 🎨  
-  Developer-first, perfect for local-to-production RAG apps.
-  
-- **[pgvector](https://github.com/pgvector/pgvector)** 🐘  
-  The industry standard for vector search in PostgreSQL.
-  
-- **[LanceDB](https://github.com/lancedb/lancedb)** ⚡  
-  Modern, built on Lance format with zero-copy capabilities.
-
-- **[Faiss](https://github.com/facebookresearch/faiss)**  🦀  
-  Facebook’s industry-standard library for efficient similarity search and clustering of dense vectors.
-
-- **[HNSWlib](https://github.com/nmslib/hnswlib)**  🎨  
-  Fast approximate nearest neighbor search library implementing Hierarchical Navigable Small World graphs.
-
-- **[Vespa](https://github.com/vespa-engine/vespa)**  ☁️  
-  Big data serving engine with powerful vector search and hybrid ranking capabilities.
-
-- **[Redis Stack (RediSearch + Vector)](https://github.com/redis/redis)**  🐘  
+- **[Redis Stack (RediSearch + Vector)](https://github.com/redis/redis)** [![GitHub stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)  🐘  
   Redis with official vector search module for real-time vector operations and caching.
 
-### 🐘  Additional Strong Open-Source Options
+- **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers) ☁️  
+  Highly scalable, designed for massive embedding workloads.
+  
+- **[Faiss](https://github.com/facebookresearch/faiss)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers)  🦀  
+  Facebook’s industry-standard library for efficient similarity search and clustering of dense vectors.
 
-- **[Annoy](https://github.com/spotify/annoy)** — Spotify’s approximate nearest neighbors library optimized for memory usage.
-- **[ScaNN](https://github.com/google-research/google-research/tree/master/scann)** — Google’s high-performance vector search library.
-- **[USearch](https://github.com/unum-cloud/usearch)** — Extremely fast SIMD-accelerated vector search library.
-- **[Turbopuffer](https://github.com/turbopuffer/turbopuffer)** — Serverless-scale open-source vector database.
-- **[Typesense](https://github.com/typesense/typesense)** — Fast open-source search engine with vector capabilities.
-- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** with vector search extensions.
+- **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers) 🦀  
+  Rust-based, high performance with rich filtering and payload support.
+  
+- **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers) 🎨  
+  Developer-first, perfect for local-to-production RAG apps.
+  
+- **[pgvector](https://github.com/pgvector/pgvector)** [![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers) 🐘  
+  The industry standard for vector search in PostgreSQL.
+  
+- **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers) 🏆  
+  Native multimodal support, GraphQL + REST, and excellent hybrid search.
+  
+- **[LanceDB](https://github.com/lancedb/lancedb)** [![GitHub stars](https://img.shields.io/github/stars/lancedb/lancedb?style=social&color=white)](https://github.com/lancedb/lancedb/stargazers) ⚡  
+  Modern, built on Lance format with zero-copy capabilities.
+
+- **[Vespa](https://github.com/vespa-engine/vespa)** [![GitHub stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)  ☁️  
+  Big data serving engine with powerful vector search and hybrid ranking capabilities.
+
+- **[HNSWlib](https://github.com/nmslib/hnswlib)** [![GitHub stars](https://img.shields.io/github/stars/nmslib/hnswlib?style=social&color=white)](https://github.com/nmslib/hnswlib/stargazers)  🎨  
+  Fast approximate nearest neighbor search library implementing Hierarchical Navigable Small World graphs.
+
+### 🐘  Additional Strong Open-Source Options
+- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) with vector search extensions.
+- **[ScaNN](https://github.com/google-research/google-research/tree/master/scann)** [![GitHub stars](https://img.shields.io/github/stars/google-research/google-research?style=social&color=white)](https://github.com/google-research/google-research/stargazers) — Google’s high-performance vector search library.
+- **[Typesense](https://github.com/typesense/typesense)** [![GitHub stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers) — Fast open-source search engine with vector capabilities.
+- **[Annoy](https://github.com/spotify/annoy)** [![GitHub stars](https://img.shields.io/github/stars/spotify/annoy?style=social&color=white)](https://github.com/spotify/annoy/stargazers) — Spotify’s approximate nearest neighbors library optimized for memory usage.
+- **[USearch](https://github.com/unum-cloud/usearch)** [![GitHub stars](https://img.shields.io/github/stars/unum-cloud/usearch?style=social&color=white)](https://github.com/unum-cloud/usearch/stargazers) — Extremely fast SIMD-accelerated vector search library.
+- **[Turbopuffer](https://github.com/turbopuffer/turbopuffer)** [![GitHub stars](https://img.shields.io/github/stars/turbopuffer/turbopuffer?style=social&color=white)](https://github.com/turbopuffer/turbopuffer/stargazers) — Serverless-scale open-source vector database.
 - Many community **Docker + pgvector**, **Chroma**, and **Qdrant** deployment templates.
   
 
 ### 📚 Specialized Libraries
+- **[Redis Stack](https://github.com/redis/redis)** [![GitHub stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers) — Real-time vector search in Redis.
 
-- **[Faiss](https://github.com/facebookresearch/faiss)** — Facebook's library for dense vector similarity search.
-- **[HNSWlib](https://github.com/nmslib/hnswlib)** — Fast HNSW graph implementation.
-- **[Vespa](https://github.com/vespa-engine/vespa)** — Big data serving engine with powerful ranking.
-- **[Redis Stack](https://github.com/redis/redis)** — Real-time vector search in Redis.
-
+- **[Faiss](https://github.com/facebookresearch/faiss)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/faiss?style=social&color=white)](https://github.com/facebookresearch/faiss/stargazers) — Facebook's library for dense vector similarity search.
+- **[Vespa](https://github.com/vespa-engine/vespa)** [![GitHub stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers) — Big data serving engine with powerful ranking.
+- **[HNSWlib](https://github.com/nmslib/hnswlib)** [![GitHub stars](https://img.shields.io/github/stars/nmslib/hnswlib?style=social&color=white)](https://github.com/nmslib/hnswlib/stargazers) — Fast HNSW graph implementation.
 ---
 
 ##  Star History
